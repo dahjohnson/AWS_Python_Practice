@@ -1,1 +1,1 @@
-# AWS_Python_Practice
+# Python_Practice

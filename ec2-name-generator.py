@@ -36,7 +36,6 @@ def ec2_name_gen(ec2_count, department):
     characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890'
     char_list = []
     csv_list = []
-    zip_csv_list = zip(csv_list)
     csv_name = 'ec2-instance-names.csv'
     cwd = getcwd()
     

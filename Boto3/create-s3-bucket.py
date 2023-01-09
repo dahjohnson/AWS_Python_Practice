@@ -22,4 +22,3 @@ response = bucket.create(
 # response = bucket.delete()
 
 print(response)
-

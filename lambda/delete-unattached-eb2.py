@@ -13,7 +13,7 @@ def lambda_handler(object, context):
         
         # List only unattached volumes
         volumes = ec2.volumes.filter(
-            Filters = [{'Name': 'status', 'Values': ['Available']}])
+            Filters = [{'Name': 'status', 'Values': ['available']}])
             
         for volume in volumes:
             v = ec2.Volume(volume.id)

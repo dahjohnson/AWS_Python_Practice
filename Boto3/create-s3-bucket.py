@@ -6,7 +6,7 @@ import boto3
 aws_resource = boto3.resource('s3')
 
 # Define S3 bucket name
-bucket = aws_resource.Bucket('luit-black-team-1142023')
+bucket = aws_resource.Bucket('luit-black-team-01222023')
 
 # Create Bucket
 response = bucket.create(

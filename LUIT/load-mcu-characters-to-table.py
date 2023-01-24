@@ -4,7 +4,7 @@ import decimal
 
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
-table = dynamodb.Table('mcu_characters')
+table = dynamodb.Table('mcu-characters')
 
 filepath = "/home/ec2-user/environment/Python_Practice/LUIT/mcu-characters.json"
 
